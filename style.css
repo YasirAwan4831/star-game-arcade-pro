@@ -234,10 +234,8 @@ html, body {
    ============================================================ */
 #gameScreen {
   flex-direction: column;
-  display: none;
   background: #04030f;
 }
-#gameScreen.active { display: flex; }
 
 /* HUD */
 #hud {

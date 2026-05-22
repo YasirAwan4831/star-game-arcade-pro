@@ -1,22 +1,36 @@
-# ⭐ Star Game — Ultimate Arcade Challenge
+<!-- ========================= -->
+<!--      ANIMATED HEADER      -->
+<!-- ========================= -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Game-Arcade-blueviolet?style=for-the-badge">
-<img src="https://img.shields.io/badge/HTML5-Frontend-orange?style=for-the-badge&logo=html5">
-<img src="https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3">
-<img src="https://img.shields.io/badge/JavaScript-GameLogic-yellow?style=for-the-badge&logo=javascript">
-<img src="https://img.shields.io/badge/Responsive-Mobile%20Friendly-success?style=for-the-badge">
-<img src="https://img.shields.io/badge/Status-Advanced%20Project-red?style=for-the-badge">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F2027,50:203A43,100:2C5364&text=⭐%20STAR%20GAME&fontSize=60&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Ultimate%20Arcade%20Challenge&descAlignY=55&descSize=20"/>
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=Modern+JavaScript+Arcade+Game;Advanced+Frontend+Gaming+Project;Responsive+%2B+Animated+%2B+Interactive;Built+with+HTML+CSS+and+JavaScript" />
 
 <br><br>
 
-<svg width="180" height="180" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Game-Arcade-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/UI-Modern-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Responsive-Mobile-orange?style=for-the-badge"/>
+
+<br><br>
+
+<svg width="220" height="220" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
+
     <linearGradient id="starGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFD700"/>
-      <stop offset="100%" stop-color="#FF8C00"/>
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#7B2FF7"/>
+      <stop offset="100%" stop-color="#FF0080"/>
     </linearGradient>
+
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
@@ -24,390 +38,164 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
   </defs>
 
-  <polygon 
-    points="100,15 120,75 185,75 135,115 155,180 100,140 45,180 65,115 15,75 80,75"
-    fill="url(#starGradient)"
-    filter="url(#glow)">
-    
+  <!-- Rotating Ring -->
+  <circle cx="100" cy="100" r="82"
+    stroke="url(#starGradient)"
+    stroke-width="4"
+    fill="none"
+    stroke-dasharray="12 10">
+
     <animateTransform
       attributeName="transform"
       type="rotate"
       from="0 100 100"
       to="360 100 100"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Animated Star -->
+  <polygon
+    points="100,20 120,75 180,75 130,110 150,170 100,135 50,170 70,110 20,75 80,75"
+    fill="url(#starGradient)"
+    filter="url(#glow)">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 100"
+      to="-360 100 100"
       dur="6s"
       repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values="1;0.7;1"
+      dur="2s"
+      repeatCount="indefinite"/>
+
   </polygon>
+
 </svg>
+
+<br>
 
 # 🎮 STAR GAME
 
-### A Modern Advanced Browser Arcade Game
+### ⚡ Ultimate Advanced Browser Arcade Experience
 
 🔥 Fast Reflexes  
 💣 Dangerous Bombs  
-⚡ Powerful Boosters  
-🏆 Competitive Leaderboard  
+⚡ Dynamic Power-Ups  
+🏆 Competitive Leaderboards  
+🎵 Immersive Audio System  
 
 </div>
 
 ---
 
-# 📌 Overview
-
-**Star Game** is a modern browser-based arcade reflex game built entirely using:
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
-The objective is simple:
-
-> Catch as many moving stars as possible while avoiding dangerous bombs and surviving through increasingly difficult levels.
-
-This project was designed as a fully interactive advanced frontend game with modern animations, responsive layouts, sound systems, particle effects, and dynamic gameplay mechanics.
-
----
-
-# ✨ Features
-
-# 🚀 Core Features
-
-- ⭐ Moving Stars
-- 🎯 Real-Time Score System
-- ⏱ Countdown Timer
-- ❤️ Lives System
-- 💣 Bomb Obstacles
-- ⚡ Power Ups
-- 📈 Level Progression
-- 🏆 High Score Saving
-- 📱 Fully Responsive
-- 🔊 Sound Effects
-- 🎵 Background Music
-- 🖥 Modern Gaming UI
-- 🌈 Glassmorphism Design
-- 🔥 Neon Glow Effects
-- 💾 LocalStorage Support
-- 📊 Leaderboard System
-- ⏸ Pause / Resume
-- 📲 Mobile Touch Support
-
----
-
-# 🎮 Gameplay
-
-## ⭐ Stars
-
-- Click moving stars to gain points
-- Faster stars appear in higher levels
-- Multiple stars spawn dynamically
-
-## 💣 Bombs
-
-- Bombs move around the game area
-- Clicking bombs decreases lives
-- Bomb speed increases over time
-
-## ⚡ Power Ups
-
-Random power-ups appear during gameplay:
-
-| Power Up | Effect |
-|---|---|
-| ❄ Freeze | Stops movement temporarily |
-| ⚡ Double Score | Double points |
-| 🐢 Slow Motion | Slows enemies |
-| ❤️ Extra Life | Adds one life |
-
----
-
-# 🏆 Difficulty Modes
-
-The game includes multiple difficulty settings:
-
-| Mode | Description |
-|---|---|
-| Easy | Slower gameplay |
-| Medium | Balanced difficulty |
-| Hard | Fast-paced arcade challenge |
-
-Each mode changes:
-
-- Movement speed
-- Spawn rate
-- Bomb count
-- Timer difficulty
-
----
-
-# 📱 Responsive Design
-
-The game is optimized for:
-
-- Desktop
-- Tablet
-- Mobile Devices
-
-Includes:
-
-- Touch controls
-- Responsive layouts
-- Adaptive UI scaling
-
----
-
-# 🎨 Modern UI Design
-
-The interface includes:
-
-- Glassmorphism panels
-- Animated backgrounds
-- Neon glow effects
-- Smooth transitions
-- Hover animations
-- Dynamic overlays
-- Floating particles
-
----
-
-# 🔊 Audio System
-
-Includes:
-
-- Click sounds
-- Bomb hit effects
-- Game over sound
-- Level up effects
-- Background music
-- Mute toggle system
-
----
-
-# 🧠 Advanced Systems
-
-## 🏅 Leaderboard
-
-Uses LocalStorage to store:
-
-- Top scores
-- Player names
-- Best level reached
-
----
-
-## 📈 Level Progression
-
-Each level increases:
-
-- Game speed
-- Number of stars
-- Bomb frequency
-- Overall difficulty
-
----
-
-## ❤️ Lives System
-
-Players start with limited lives.
-
-Lose lives by:
-- Clicking bombs
-- Missing targets
-- Wrong interactions
-
-Game ends when:
-- Timer reaches zero
-- Lives become zero
-
----
-
-# 📂 Project Structure
-
-```bash
-Star-Game/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
----
-
-# 🛠 Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| HTML5 | Structure |
-| CSS3 | Styling & Animations |
-| JavaScript | Game Logic |
-| LocalStorage | Save Scores |
-| SVG | Visual Elements |
-
----
-
-# ⚙ Installation
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/star-game.git
-```
-
----
-
-## 2️⃣ Open Project
-
-```bash
-cd star-game
-```
-
----
-
-## 3️⃣ Run Game
-
-Simply open:
-
-```bash
-index.html
-```
-
-in your browser.
-
----
-
-# 🎯 Future Improvements
-
-Planned future upgrades:
-
-- 🌐 Online Multiplayer
-- 🤖 AI Enemies
-- 🎮 Controller Support
-- ☁ Cloud Save System
-- 🏅 Achievement System
-- 🎨 Custom Themes
-- 🧊 Boss Levels
-- 🕹 Endless Mode
-
----
-
-# 📸 Screenshots
-
-## 🖥 Main Menu
-
-```txt
-[ Animated Start Screen ]
-```
-
-## 🎮 Gameplay
-
-```txt
-[ Multiple Stars + Bombs + Effects ]
-```
-
-## 🏆 Leaderboard
-
-```txt
-[ High Score Panel ]
-```
-
----
-
-# 🔥 Performance Optimizations
-
-- Optimized animations
-- Efficient game loops
-- Responsive rendering
-- Lightweight assets
-- Fast DOM updates
-
----
-
-# 🧩 Code Quality
-
-This project follows:
-
-- Clean architecture
-- Modular JavaScript
-- Reusable functions
-- Proper comments
-- Readable structure
-
----
-
-# 💡 Learning Concepts
-
-This project helps practice:
-
-- DOM Manipulation
-- Game Loops
-- Collision Detection
-- Animations
-- Event Handling
-- LocalStorage
-- Responsive Design
-- Audio Integration
-- UI/UX Design
-
----
-
-# 👨‍💻 Developer
+<!-- ========================= -->
+<!--      ANIMATED FOOTER      -->
+<!-- ========================= -->
 
 <div align="center">
 
-# Muhammad Yasir
+<br>
 
-### Full Stack Web Developer & AI Automation Learner
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=2500&pause=1000&color=7B2FF7&center=true&vCenter=true&width=700&lines=Thanks+For+Visiting!;Star+The+Repository+⭐;Built+with+Passion+and+JavaScript" />
 
-🚀 Passionate about:
-- Web Development
-- Frontend Engineering
-- JavaScript Projects
-- AI & Automation
-- Interactive UI Systems
+<br><br>
 
-</div>
+<svg width="320" height="120" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
 
----
-
-# 📜 License
-
-This project is licensed for educational and personal use.
-
----
-
-# 🌟 Support
-
-If you like this project:
-
-⭐ Star the repository  
-🍴 Fork the project  
-📢 Share with friends  
-
----
-
-<div align="center">
-
-# ⭐ THANK YOU FOR VISITING ⭐
-
-<svg width="120" height="120" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+
+    <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F5FF"/>
-      <stop offset="100%" stop-color="#7B2FF7"/>
+      <stop offset="50%" stop-color="#7B2FF7"/>
+      <stop offset="100%" stop-color="#FF0080"/>
     </linearGradient>
+
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
   </defs>
 
-  <circle cx="100" cy="100" r="60" fill="url(#g)">
-    <animate attributeName="r" values="60;70;60" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Animated Line -->
+  <line x1="50" y1="100" x2="550" y2="100"
+        stroke="url(#footerGradient)"
+        stroke-width="6"
+        stroke-linecap="round">
 
-  <text x="50%" y="54%" text-anchor="middle" fill="white" font-size="28" font-family="Arial">
-    ⭐
-  </text>
+    <animate attributeName="stroke-dasharray"
+             values="0,1000;1000,0"
+             dur="4s"
+             repeatCount="indefinite"/>
+
+  </line>
+
+  <!-- Floating Stars -->
+  <g filter="url(#shadow)">
+
+    <text x="120" y="80" font-size="40" fill="#FFD700">
+      ⭐
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -10;0 0"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </text>
+
+    <text x="280" y="140" font-size="50" fill="#00F5FF">
+      ✨
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -14;0 0"
+        dur="3s"
+        repeatCount="indefinite"/>
+    </text>
+
+    <text x="440" y="80" font-size="40" fill="#FF0080">
+      ⭐
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -10;0 0"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
 </svg>
 
-### Built with ❤️ using HTML, CSS & JavaScript
+<br>
+
+## 👨‍💻 Muhammad Yasir
+
+### Full Stack Web Developer • AI Automation Learner 
+
+<br>
+
+<img src="https://img.shields.io/badge/Open%20Source-Project-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Made%20With-JavaScript-yellow?style=for-the-badge&logo=javascript"/>
+<img src="https://img.shields.io/badge/Responsive-UI-blue?style=for-the-badge"/>
+
+<br><br>
+
+### ⭐ Built with Passion, Creativity & Modern Web Technologies ⭐
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:0F2027,50:203A43,100:2C5364"/>
