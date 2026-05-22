@@ -20,7 +20,7 @@
 
 <br>
 
-[▶ Play Now](#-quick-start) • [✨ Features](#-features) • [🧠 Tech Stack](#-tech-stack) • [🏆 Leaderboard](#-leaderboard-system)
+[▶ Play Now](https://star-game-arcade-pro.vercel.app/) • [✨ Features](#-features) • [🧠 Tech Stack](#-tech-stack) • [🏆 Leaderboard](#-leaderboard-system)
 
 </div>
 
@@ -303,7 +303,7 @@ git push origin feature/your-feature-name
 
 This project is licensed under the [MIT License](LICENSE) — free to use, modify and distribute.
 Attribution appreciated but not required.
-```
+
 
 ---
 
